@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="certificate_exception_type" table="x_inhe_spem_server_patching_exception" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>certificate_exception_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Non-FQDN</label>
+            <language>en</language>
+            <name>x_inhe_spem_server_patching_exception</name>
+            <sequence>100</sequence>
+            <sys_created_by>XuHx</sys_created_by>
+            <sys_created_on>2018-10-05 07:44:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b7c354dc13492f80339d30128144b09c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>XuHx</sys_updated_by>
+            <sys_updated_on>2018-10-05 07:44:12</sys_updated_on>
+            <value>Non-FQDN</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>certificate_exception_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Self-signed</label>
+            <language>en</language>
+            <name>x_inhe_spem_server_patching_exception</name>
+            <sequence>200</sequence>
+            <sys_created_by>XuHx</sys_created_by>
+            <sys_created_on>2018-10-05 07:44:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ddd3d0dc13492f80339d30128144b02c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>XuHx</sys_updated_by>
+            <sys_updated_on>2018-10-05 07:44:27</sys_updated_on>
+            <value>Self-signed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>certificate_exception_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>WildCard</label>
+            <language>en</language>
+            <name>x_inhe_spem_server_patching_exception</name>
+            <sequence>300</sequence>
+            <sys_created_by>XuHx</sys_created_by>
+            <sys_created_on>2018-10-05 07:44:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ade39c9c13492f80339d30128144b0ad</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>XuHx</sys_updated_by>
+            <sys_updated_on>2018-10-05 07:44:41</sys_updated_on>
+            <value>WildCard</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>certificate_exception_type</element>
+            <name>x_inhe_spem_server_patching_exception</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>XuHx</sys_created_by>
+            <sys_created_on>2018-10-05 07:44:04</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>32b57b0e131d2300339d30128144b0fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>certificate_exception_type</sys_name>
+            <sys_package display_value="Server Patching Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Server Patching Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
+            <sys_update_name>sys_choice_x_inhe_spem_server_patching_exception_certificate_exception_type</sys_update_name>
+            <sys_updated_by>XuHx</sys_updated_by>
+            <sys_updated_on>2018-10-05 07:44:04</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

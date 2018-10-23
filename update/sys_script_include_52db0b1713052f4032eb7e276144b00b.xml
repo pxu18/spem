@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_inhe_spem.SPEMUtils</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>SPEMUtils</name>
+        <script><![CDATA[var SPEMUtils = Class.create();
+SPEMUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	// * Query the approval matrix table to determine approvals
+	// * Return an array of approver's sys_id, if no approval needed for this approval level, return an empty array.
+	getApprovers: function(exceptionType, level, current) {
+		var answer = [];
+		var approvalMatrix = new GlideRecord('x_inhe_spem_spem_approval_matrix');
+		approvalMatrix.addQuery('exception_type', exceptionType);
+		approvalMatrix.query();
+		if (approvalMatrix.next()) {
+			var managerApproval = approvalMatrix.getValue('manager_approval');
+			var groupsManagerApproval = approvalMatrix.getValue('group_manager_approval');
+			var managersManagerApproval = approvalMatrix.getValue('group_manager_s_manager_approval');
+			var group = approvalMatrix.getValue('group_approval');
+			var implemenetGroup = approvalMatrix.getValue('impletement_group');
+			var groupManager = new GlideRecord('sys_user_group');
+			groupManager.addQuery('sys_id', group);
+			switch(level) {
+				case '1'://get manager approval
+				if(managerApproval == '1') {
+					answer.push(current.manager);
+				}
+				break;
+				case '2'://get group approval
+				var approvalGr = new GlideRecord('sys_user_grmember');
+				approvalGr.addQuery('group', group);
+				approvalGr.query();
+				while(approvalGr.next()){
+					answer.push(approvalGr.getValue('user'));
+				}
+				break;
+				case '3'://get group's manager approval
+				if(groupsManagerApproval == '1') {
+					groupManager.query();
+					if(groupManager.next()){
+						answer.push(groupManager.getValue('manager'));
+					}
+				}
+				break;
+				case '4'://get group manager's manager approval
+				if(managersManagerApproval == '1') {
+					groupManager.query();
+					if(groupManager.next()){
+						var managerSysId = groupManager.getValue('manager');
+						var manager = new GlideRecord('sys_user');
+						manager.addQuery('sys_id', managerSysId);
+						manager.query();
+						if(manager.next()){
+							answer.push(manager.getValue('manager'));
+						}
+					}
+				}
+				break;
+				case 'implement':
+				var implementGr = new GlideRecord('sys_user_group');
+				implementGr.addQuery('sys_id', implemenetGroup);
+				implementGr.query();
+				if(implementGr.next()){
+					return implementGr.getValue('sys_id');
+				}
+				break;
+			}
+		}
+		return answer;
+	},
+	
+	type: 'SPEMUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>XuHx</sys_created_by>
+        <sys_created_on>2018-10-10 16:50:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>52db0b1713052f4032eb7e276144b00b</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>SPEMUtils</sys_name>
+        <sys_package display_value="Server Patching Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Server Patching Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
+        <sys_update_name>sys_script_include_52db0b1713052f4032eb7e276144b00b</sys_update_name>
+        <sys_updated_by>XuHx</sys_updated_by>
+        <sys_updated_on>2018-10-18 16:02:24</sys_updated_on>
+    </sys_script_include>
+</record_update>

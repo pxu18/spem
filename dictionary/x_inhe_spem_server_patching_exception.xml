@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Server Patching Exception" max_length="40" name="x_inhe_spem_server_patching_exception" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Business impact" max_length="1000" name="business_impact" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Business justification" max_length="1000" name="business_justification" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Certificate exception type" max_length="40" name="certificate_exception_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Non-FQDN" sequence="100" value="Non-FQDN"/>
+                <element inactive_on_update="false" label="Self-signed" sequence="200" value="Self-signed"/>
+                <element inactive_on_update="false" label="WildCard" sequence="300" value="WildCard"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="CN of Certificate" max_length="1000" name="cn_of_certificate" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Connectivity end date" max_length="40" name="connectivity_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Connectivity start date" max_length="40" name="connectivity_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Exception type" max_length="40" name="exception_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Antivirus" sequence="100" value="Antivirus"/>
+                <element inactive_on_update="false" label="Encryption" sequence="200" value="Encryption"/>
+                <element inactive_on_update="false" label="Firewall" sequence="300" value="Firewall"/>
+                <element inactive_on_update="false" label="Non-Standard Certificate" sequence="400" value="Non-Standard Certificate"/>
+                <element inactive_on_update="false" label="Imprivata" sequence="500" value="Imprivata"/>
+                <element inactive_on_update="false" label="Patching - Exclusion" sequence="600" value="Patching - Exclusion"/>
+                <element inactive_on_update="false" label="Patching - No Restart" sequence="700" value="Patching - No Restart"/>
+                <element inactive_on_update="false" label="Patching - Temporary" sequence="800" value="Patching - Temporary"/>
+                <element inactive_on_update="false" label="Policy" sequence="900" value="Policy"/>
+                <element inactive_on_update="false" label="Portable Device" sequence="1000" value="Portable Device"/>
+                <element inactive_on_update="false" label="Spam" sequence="1100" value="Spam"/>
+                <element inactive_on_update="false" label="Vulnerability Scanning Exclusion" sequence="1200" value="Vulnerability Scanning Exclusion"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Expiration date" max_length="40" name="expiration_date" type="glide_date_time"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true,edge_encryption_enabled=true" label="External Access Review" max_length="1024" name="external_access_review" reference="u_request_choice" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Firewall Exception Type" max_length="40" name="firewall_exception_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Application" sequence="100" value="Application"/>
+                <element inactive_on_update="false" label="URL" sequence="200" value="URL"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Policy number" max_length="40" name="policy_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Policy section" max_length="100" name="policy_section" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true,edge_encryption_enabled=true" label="Scope" max_length="1024" name="scope" reference="u_request_choice" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Scope notes" max_length="1000" name="scope_notes" type="string"/>
+        <index name="index">
+            <element name="requester"/>
+        </index>
+        <index name="index2">
+            <element name="manager"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_inhe_spem_server_patching_exception" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Server Patching Exception - Default view" name="x_inhe_spem_server_patching_exception" related_list="NULL" sys_domain="global" view="Default view">1d43d621138523c0339d30128144b083</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>sysapproval_approver.sysapproval</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>XuHx</sys_created_by>
+            <sys_created_on>2018-10-09 14:13:15</sys_created_on>
+            <sys_id>d543d621138523c0339d30128144b084</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>XuHx</sys_updated_by>
+            <sys_updated_on>2018-10-09 14:13:15</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Server Patching Exception - Default view" name="x_inhe_spem_server_patching_exception" related_list="NULL" sys_domain="global" view="Default view">1d43d621138523c0339d30128144b083</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_inhe_spem_server_patching_exception_task.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>XuHx</sys_created_by>
+            <sys_created_on>2018-10-09 14:13:15</sys_created_on>
+            <sys_id>dd43d621138523c0339d30128144b084</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>XuHx</sys_updated_by>
+            <sys_updated_on>2018-10-09 14:13:15</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Server Patching Exception - Default view</calculated_name>
+            <filter/>
+            <name>x_inhe_spem_server_patching_exception</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>XuHx</sys_created_by>
+            <sys_created_on>2018-10-09 14:13:15</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>1d43d621138523c0339d30128144b083</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Server Patching Exception - Default view</sys_name>
+            <sys_package display_value="Server Patching Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Server Patching Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
+            <sys_update_name>sys_ui_related_x_inhe_spem_server_patching_exception_null</sys_update_name>
+            <sys_updated_by>XuHx</sys_updated_by>
+            <sys_updated_on>2018-10-09 14:13:15</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
