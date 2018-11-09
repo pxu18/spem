@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_inhe_spem_server_patching_exception_task">x_inhe_spem_server_patching_exception_task</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>SPEMT</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>XuHx</sys_created_by>
+        <sys_created_on>2018-11-07 20:51:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b994c90f13e92340339d30128144b00b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SPEMT</sys_name>
+        <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
+        <sys_update_name>sys_number_b994c90f13e92340339d30128144b00b</sys_update_name>
+        <sys_updated_by>XuHx</sys_updated_by>
+        <sys_updated_on>2018-11-07 20:51:47</sys_updated_on>
+    </sys_number>
+</record_update>

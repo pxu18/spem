@@ -7,7 +7,7 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <catalog_conditions>IO:678c0b3813e82b4032eb7e276144b0df=Non-Standard Certificate^EQ</catalog_conditions>
-        <catalog_item display_value="Server Patching Exception">1b4c433813e82b4032eb7e276144b0e6</catalog_item>
+        <catalog_item display_value="Security Policy Exception Request">1b4c433813e82b4032eb7e276144b0e6</catalog_item>
         <conditions/>
         <description/>
         <global>true</global>
@@ -36,10 +36,10 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Show - CN of the certificate</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Server Patching Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
+        <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="Server Patching Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
+        <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
         <sys_update_name>catalog_ui_policy_4f06dd6c13706f40339d30128144b097</sys_update_name>
         <sys_updated_by>XuHx</sys_updated_by>
         <sys_updated_on>2018-09-23 20:56:09</sys_updated_on>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="Server Patching Exception">1b4c433813e82b4032eb7e276144b0e6</catalog_item>
+        <catalog_item display_value="Security Policy Exception Request">1b4c433813e82b4032eb7e276144b0e6</catalog_item>
         <catalog_variable>IO:09c1aefa13e06b40339d30128144b063</catalog_variable>
         <cleared>false</cleared>
         <disabled>ignore</disabled>
@@ -14,10 +14,10 @@
         <sys_id>7969c6fb1328eb40339d30128144b0f4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>ref_requester_manager</sys_name>
-        <sys_package display_value="Server Patching Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
+        <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="Server Patching Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
+        <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
         <sys_update_name>catalog_ui_policy_action_7969c6fb1328eb40339d30128144b0f4</sys_update_name>
         <sys_updated_by>XuHx</sys_updated_by>
         <sys_updated_on>2018-09-21 16:45:10</sys_updated_on>

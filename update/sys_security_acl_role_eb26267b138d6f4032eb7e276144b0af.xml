@@ -7,10 +7,10 @@
         <sys_id>eb26267b138d6f4032eb7e276144b0af</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>x_inhe_spem_spem_approval_matrix.itil</sys_name>
-        <sys_package display_value="Server Patching Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
+        <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="Server Patching Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
+        <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
         <sys_security_acl display_value="x_inhe_spem_spem_approval_matrix">6b26267b138d6f4032eb7e276144b0aa</sys_security_acl>
         <sys_update_name>sys_security_acl_role_eb26267b138d6f4032eb7e276144b0af</sys_update_name>
         <sys_updated_by>XuHx</sys_updated_by>

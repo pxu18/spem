@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Server Patching Exception" max_length="40" name="x_inhe_spem_server_patching_exception" type="collection">
+    <element audit="true" extends="task" label="Security Policy Exception" max_length="40" name="x_inhe_spem_server_patching_exception" sizeclass="3" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Business impact" max_length="1000" name="business_impact" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Business justification" max_length="1000" name="business_justification" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Certificate exception type" max_length="40" name="certificate_exception_type" type="string">

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="expiration" label="Expiration" language="en" table="x_inhe_spem_spem_approval_matrix">
+    <sys_documentation element="expiration" label="Expiration (in days)" language="en" table="x_inhe_spem_spem_approval_matrix">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>expiration</element>
             <help/>
-            <hint/>
-            <label>Expiration</label>
+            <hint>Number of days after the created date that the exception will expire.</hint>
+            <label>Expiration (in days)</label>
             <language>en</language>
             <name>x_inhe_spem_spem_approval_matrix</name>
-            <plural>Expirations</plural>
+            <plural>Expiration (in days)</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>XuHx</sys_created_by>
             <sys_created_on>2018-10-19 15:20:49</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>9ca2cefc13d52bc0339d30128144b0da</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Expiration</sys_name>
-            <sys_package display_value="Server Patching Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Expiration (in days)</sys_name>
+            <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-            <sys_scope display_value="Server Patching Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
+            <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
             <sys_update_name>sys_documentation_x_inhe_spem_spem_approval_matrix_expiration_en</sys_update_name>
             <sys_updated_by>XuHx</sys_updated_by>
-            <sys_updated_on>2018-10-19 15:20:49</sys_updated_on>
+            <sys_updated_on>2018-10-29 04:08:58</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

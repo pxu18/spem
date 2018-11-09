@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_inhe_spem.server_patching_exception_user" name="x_inhe_spem.server_patching_exception_user">235b073813a82b4032eb7e276144b04a</role>
+        <role display_value="x_inhe_spem.spem_user" name="x_inhe_spem.spem_user">235b073813a82b4032eb7e276144b04a</role>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>XuHx</sys_created_by>
         <sys_created_on>2018-09-12 13:51:31</sys_created_on>
@@ -9,10 +9,10 @@
         <sys_id>235b83f413e82b4032eb7e276144b005</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>235b073813a82b4032eb7e276144b04a</sys_name>
-        <sys_package display_value="Server Patching Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
+        <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="Server Patching Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
+        <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
         <sys_update_name>sys_embedded_help_role_235b83f413e82b4032eb7e276144b005</sys_update_name>
         <sys_updated_by>XuHx</sys_updated_by>
         <sys_updated_on>2018-09-12 13:51:31</sys_updated_on>

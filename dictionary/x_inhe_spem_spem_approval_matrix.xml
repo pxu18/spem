@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="SPEM Approval Matrix" max_length="40" name="x_inhe_spem_spem_approval_matrix" type="collection">
-        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="exception_type" choice_table="x_inhe_spem_server_patching_exception" label="Exception Type" max_length="40" name="exception_type" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="exception_type" choice_table="x_inhe_spem_server_patching_exception" display="true" label="Exception Type" max_length="40" name="exception_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Antivirus" sequence="0" value="Antivirus"/>
                 <element inactive_on_update="false" label="Encryption" sequence="1" value="Encryption"/>
@@ -16,13 +16,13 @@
                 <element inactive_on_update="false" label="Vulnerability Scanning Exclusion" sequence="11" value="Vulnerability Scanning Exclusion"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Expiration" max_length="40" name="expiration" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Group Approval" max_length="32" name="group_approval" reference="sys_user_group" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Group Manager Approval" max_length="40" name="group_manager_approval" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Group Manager's Manager Approval" max_length="40" name="group_manager_s_manager_approval" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" hint="Number of days after the created date that the exception will expire." label="Expiration (in days)" max_length="40" name="expiration" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Group Approval (Level 2)" max_length="32" name="group_approval" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Group Manager Approval (Level 3)" max_length="40" name="group_manager_approval" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Group Manager's Manager Approval (Level 4)" max_length="40" name="group_manager_s_manager_approval" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Impletement Group" max_length="32" name="impletement_group" reference="sys_user_group" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Manager approval" max_length="40" name="manager_approval" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="User Reminder" max_length="40" name="user_reminder" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Manager approval (Level 1)" max_length="40" name="manager_approval" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" hint="Number of days before the expiration date to send reminder." label="User Reminder (in days)" max_length="40" name="user_reminder" type="integer"/>
         <index name="index">
             <element name="impletement_group"/>
         </index>
