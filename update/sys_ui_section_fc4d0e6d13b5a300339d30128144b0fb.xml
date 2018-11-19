@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="fc4d0e6d13b5a300339d30128144b0fb" sys_domain="global" table="x_inhe_spem_server_patching_exception_task" version="3" view="Mobile">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>petebl</sys_created_by>
+            <sys_created_on>2018-11-15 20:34:06</sys_created_on>
+            <sys_id>bc4d0e6d13b5a300339d30128144b0fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inhe_spem_server_patching_exception_task" sys_domain="global" view="726696b40a0a3c740113237eb4226aaa">fc4d0e6d13b5a300339d30128144b0fb</sys_ui_section>
+            <sys_updated_by>petebl</sys_updated_by>
+            <sys_updated_on>2018-11-15 20:34:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>1</position>
+            <sys_created_by>petebl</sys_created_by>
+            <sys_created_on>2018-11-15 20:34:06</sys_created_on>
+            <sys_id>bc4d0e6d13b5a300339d30128144b0fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inhe_spem_server_patching_exception_task" sys_domain="global" view="726696b40a0a3c740113237eb4226aaa">fc4d0e6d13b5a300339d30128144b0fb</sys_ui_section>
+            <sys_updated_by>petebl</sys_updated_by>
+            <sys_updated_on>2018-11-15 20:34:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>2</position>
+            <sys_created_by>petebl</sys_created_by>
+            <sys_created_on>2018-11-15 20:34:06</sys_created_on>
+            <sys_id>3c4d0e6d13b5a300339d30128144b0fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inhe_spem_server_patching_exception_task" sys_domain="global" view="726696b40a0a3c740113237eb4226aaa">fc4d0e6d13b5a300339d30128144b0fb</sys_ui_section>
+            <sys_updated_by>petebl</sys_updated_by>
+            <sys_updated_on>2018-11-15 20:34:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ci</element>
+            <position>3</position>
+            <sys_created_by>petebl</sys_created_by>
+            <sys_created_on>2018-11-15 20:34:06</sys_created_on>
+            <sys_id>b04d0e6d13b5a300339d30128144b0fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inhe_spem_server_patching_exception_task" sys_domain="global" view="726696b40a0a3c740113237eb4226aaa">fc4d0e6d13b5a300339d30128144b0fb</sys_ui_section>
+            <sys_updated_by>petebl</sys_updated_by>
+            <sys_updated_on>2018-11-15 20:34:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>petebl</sys_created_by>
+            <sys_created_on>2018-11-15 20:34:06</sys_created_on>
+            <sys_id>384d0e6d13b5a300339d30128144b0fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inhe_spem_server_patching_exception_task" sys_domain="global" view="726696b40a0a3c740113237eb4226aaa">fc4d0e6d13b5a300339d30128144b0fb</sys_ui_section>
+            <sys_updated_by>petebl</sys_updated_by>
+            <sys_updated_on>2018-11-15 20:34:06</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>impact</element>
+            <position>5</position>
+            <sys_created_by>petebl</sys_created_by>
+            <sys_created_on>2018-11-15 20:34:06</sys_created_on>
+            <sys_id>b44d0e6d13b5a300339d30128144b0fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inhe_spem_server_patching_exception_task" sys_domain="global" view="726696b40a0a3c740113237eb4226aaa">fc4d0e6d13b5a300339d30128144b0fb</sys_ui_section>
+            <sys_updated_by>petebl</sys_updated_by>
+            <sys_updated_on>2018-11-15 20:34:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>urgency</element>
+            <position>6</position>
+            <sys_created_by>petebl</sys_created_by>
+            <sys_created_on>2018-11-15 20:34:06</sys_created_on>
+            <sys_id>bc4d0e6d13b5a300339d30128144b0fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inhe_spem_server_patching_exception_task" sys_domain="global" view="726696b40a0a3c740113237eb4226aaa">fc4d0e6d13b5a300339d30128144b0fb</sys_ui_section>
+            <sys_updated_by>petebl</sys_updated_by>
+            <sys_updated_on>2018-11-15 20:34:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>7</position>
+            <sys_created_by>petebl</sys_created_by>
+            <sys_created_on>2018-11-15 20:34:06</sys_created_on>
+            <sys_id>344d0e6d13b5a300339d30128144b0fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inhe_spem_server_patching_exception_task" sys_domain="global" view="726696b40a0a3c740113237eb4226aaa">fc4d0e6d13b5a300339d30128144b0fb</sys_ui_section>
+            <sys_updated_by>petebl</sys_updated_by>
+            <sys_updated_on>2018-11-15 20:34:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>8</position>
+            <sys_created_by>petebl</sys_created_by>
+            <sys_created_on>2018-11-15 20:34:06</sys_created_on>
+            <sys_id>b84d0e6d13b5a300339d30128144b0fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inhe_spem_server_patching_exception_task" sys_domain="global" view="726696b40a0a3c740113237eb4226aaa">fc4d0e6d13b5a300339d30128144b0fb</sys_ui_section>
+            <sys_updated_by>petebl</sys_updated_by>
+            <sys_updated_on>2018-11-15 20:34:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>petebl</sys_created_by>
+            <sys_created_on>2018-11-15 20:34:06</sys_created_on>
+            <sys_id>384d0e6d13b5a300339d30128144b0fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inhe_spem_server_patching_exception_task" sys_domain="global" view="726696b40a0a3c740113237eb4226aaa">fc4d0e6d13b5a300339d30128144b0fb</sys_ui_section>
+            <sys_updated_by>petebl</sys_updated_by>
+            <sys_updated_on>2018-11-15 20:34:06</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>10</position>
+            <sys_created_by>petebl</sys_created_by>
+            <sys_created_on>2018-11-15 20:34:06</sys_created_on>
+            <sys_id>304d0e6d13b5a300339d30128144b0fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inhe_spem_server_patching_exception_task" sys_domain="global" view="726696b40a0a3c740113237eb4226aaa">fc4d0e6d13b5a300339d30128144b0fb</sys_ui_section>
+            <sys_updated_by>petebl</sys_updated_by>
+            <sys_updated_on>2018-11-15 20:34:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>11</position>
+            <sys_created_by>petebl</sys_created_by>
+            <sys_created_on>2018-11-15 20:34:06</sys_created_on>
+            <sys_id>b44d0e6d13b5a300339d30128144b0fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inhe_spem_server_patching_exception_task" sys_domain="global" view="726696b40a0a3c740113237eb4226aaa">fc4d0e6d13b5a300339d30128144b0fb</sys_ui_section>
+            <sys_updated_by>petebl</sys_updated_by>
+            <sys_updated_on>2018-11-15 20:34:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subcategory</element>
+            <position>12</position>
+            <sys_created_by>petebl</sys_created_by>
+            <sys_created_on>2018-11-15 20:34:06</sys_created_on>
+            <sys_id>3c4d0e6d13b5a300339d30128144b0fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inhe_spem_server_patching_exception_task" sys_domain="global" view="726696b40a0a3c740113237eb4226aaa">fc4d0e6d13b5a300339d30128144b0fb</sys_ui_section>
+            <sys_updated_by>petebl</sys_updated_by>
+            <sys_updated_on>2018-11-15 20:34:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>13</position>
+            <sys_created_by>petebl</sys_created_by>
+            <sys_created_on>2018-11-15 20:34:06</sys_created_on>
+            <sys_id>b84d0e6d13b5a300339d30128144b0fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inhe_spem_server_patching_exception_task" sys_domain="global" view="726696b40a0a3c740113237eb4226aaa">fc4d0e6d13b5a300339d30128144b0fb</sys_ui_section>
+            <sys_updated_by>petebl</sys_updated_by>
+            <sys_updated_on>2018-11-15 20:34:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_inhe_spem_server_patching_exception_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>petebl</sys_created_by>
+            <sys_created_on>2018-11-15 20:34:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>fc4d0e6d13b5a300339d30128144b0fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_inhe_spem_server_patching_exception_task</sys_name>
+            <sys_overrides display_value="">global</sys_overrides>
+            <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
+            <sys_update_name>sys_ui_section_fc4d0e6d13b5a300339d30128144b0fb</sys_update_name>
+            <sys_updated_by>petebl</sys_updated_by>
+            <sys_updated_on>2018-11-15 20:34:06</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Mobile" name="Mobile">726696b40a0a3c740113237eb4226aaa</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

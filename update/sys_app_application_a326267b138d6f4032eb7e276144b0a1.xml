@@ -7,7 +7,7 @@
         <hint/>
         <name>SPEM Approval Matrix</name>
         <order>100</order>
-        <roles>x_inhe_spem.spem_approval_matrix_user</roles>
+        <roles/>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>XuHx</sys_created_by>
         <sys_created_on>2018-10-16 15:22:12</sys_created_on>

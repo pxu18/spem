@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Server Patching Exception Task" max_length="40" name="x_inhe_spem_server_patching_exception_task" sizeclass="2" type="collection"/>
+    <element audit="true" extends="task" label="Security Policy Exception Task" max_length="40" name="x_inhe_spem_server_patching_exception_task" sizeclass="5" type="collection"/>
 </database>

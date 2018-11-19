@@ -39,10 +39,9 @@
         <message/>
         <message_html><![CDATA[<div>Hello,</div>
 <div>&nbsp;</div>
-<div>A security exception has been submitted that your approval.</div>
-<div>Please follow the link below to review and gather information as needed.</div>
+<div>A security exception has been submitted that requires your approval. Please follow the link below to review and gather information as needed.</div>
 <div>&nbsp;</div>
-<div>Click ${URI_REF} to view</div>
+<div>Click ${URI_REF} to view.</div>
 <div>&nbsp;</div>
 <div>Thank you,</div>
 <div>&nbsp;</div>
@@ -51,7 +50,7 @@
 <div>INTEGRIS Health</div>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>SPE approval request mail to Manager</name>
+        <name>SPEM - Approval Requested</name>
         <omit_watermark>false</omit_watermark>
         <order/>
         <push_message_only>false</push_message_only>
@@ -62,7 +61,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>ITS Exception [Current Item:${number}]:[Current Item:${exception_type}] Manager approval needed</subject>
+        <subject>ITS Exception Request ${number} - ${exception_type} - Approval Needed</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>XuHx</sys_created_by>
@@ -70,8 +69,8 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>dde69b7a1301eb4032eb7e276144b01d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>SPE approval request mail to Manager</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>SPEM - Approval Requested</sys_name>
         <sys_overrides/>
         <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
         <sys_policy/>
@@ -79,9 +78,9 @@
         <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
         <sys_update_name>sysevent_email_action_dde69b7a1301eb4032eb7e276144b01d</sys_update_name>
         <sys_updated_by>XuHx</sys_updated_by>
-        <sys_updated_on>2018-10-18 16:31:14</sys_updated_on>
+        <sys_updated_on>2018-11-15 03:53:54</sys_updated_on>
         <sys_version>2</sys_version>
-        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <template/>
         <type>email</type>
         <user/>
         <user_field/>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Security Policy Exception" max_length="40" name="x_inhe_spem_server_patching_exception" sizeclass="3" type="collection">
+    <element audit="true" extends="task" label="Security Policy Exception" max_length="40" name="x_inhe_spem_server_patching_exception" sizeclass="13" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Blocked URL" max_length="1000" name="blocked_url" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Business impact" max_length="1000" name="business_impact" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Business justification" max_length="1000" name="business_justification" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Certificate exception type" max_length="40" name="certificate_exception_type" type="string">
@@ -12,7 +13,22 @@
         <element attributes="edge_encryption_enabled=true" label="CN of Certificate" max_length="1000" name="cn_of_certificate" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Connectivity end date" max_length="40" name="connectivity_end_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Connectivity start date" max_length="40" name="connectivity_start_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Exception type" max_length="40" name="exception_type" type="string">
+        <element label="Contains PHI" max_length="40" name="contains_phi" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Device brand" max_length="40" name="device_brand" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Device model" max_length="40" name="device_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Device serial number" max_length="40" name="device_serial_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Device type" max_length="40" name="device_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Camera" sequence="0" value="Camera"/>
+                <element inactive_on_update="false" label="External HDD" sequence="1" value="External HDD"/>
+                <element inactive_on_update="false" label="Flash drive" sequence="2" value="Flash drive"/>
+                <element inactive_on_update="false" label="Mobile phone" sequence="3" value="Mobile phone"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="Other"/>
+                <element inactive_on_update="false" label="Printer" sequence="5" value="Printer"/>
+                <element inactive_on_update="false" label="Scanner" sequence="6" value="Scanner"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Exception type" max_length="40" name="exception_type" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="Antivirus" sequence="100" value="Antivirus"/>
                 <element inactive_on_update="false" label="Encryption" sequence="200" value="Encryption"/>
@@ -28,7 +44,7 @@
                 <element inactive_on_update="false" label="Vulnerability Scanning Exclusion" sequence="1200" value="Vulnerability Scanning Exclusion"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Expiration date" max_length="40" name="expiration_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Expiration date" max_length="40" name="expiration_date" read_only="true" type="glide_date"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true,edge_encryption_enabled=true" label="External Access Review" max_length="1024" name="external_access_review" reference="u_request_choice" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Firewall Exception Type" max_length="40" name="firewall_exception_type" type="string">
             <choice>

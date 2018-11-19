@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_inhe_spem_server_patching_exception</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>x_inhe_spem.expiration.reminder</event_name>
+        <event_parm_1>true</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <group/>
+        <group_field/>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <list/>
+        <list_field/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div>Hello,</div>
+<div>&nbsp;</div>
+<div>This notification is to remind you that your security exception will be expiring in 30 days. If you still need this exception you will need to submit a new request, renewing a previous exception is not an option. You will receive another email on the expiration date to remind you. After the expiration date listed below, the Information Security Team will take steps to remove your exception.</div>
+<div>&nbsp;</div>
+<div>Please click ${URI_REF} to review your security exception referenced above.&nbsp;</div>
+<div>&nbsp;</div>
+<div>Thank you,</div>
+<div>&nbsp;</div>
+<div>Information Security Sharepoint</div>
+<div>&nbsp;</div>
+<div>INTEGRIS Health</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>SPEM - Expiration Reminder</name>
+        <omit_watermark>false</omit_watermark>
+        <order/>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>ITS Exception Request ${number} - ${exception_type} - Expires in 30 Days</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>XuHx</sys_created_by>
+        <sys_created_on>2018-11-15 04:37:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>7a52b29113b9e30032eb7e276144b08b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>SPEM - Expiration Reminder</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
+        <sys_update_name>sysevent_email_action_7a52b29113b9e30032eb7e276144b08b</sys_update_name>
+        <sys_updated_by>XuHx</sys_updated_by>
+        <sys_updated_on>2018-11-15 04:46:32</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <user/>
+        <user_field/>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

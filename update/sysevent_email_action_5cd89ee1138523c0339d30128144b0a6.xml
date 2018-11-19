@@ -20,8 +20,8 @@
         <digest_template/>
         <digest_text/>
         <digestable>false</digestable>
-        <event_name>spem.approval.rejected</event_name>
-        <event_parm_1>false</event_parm_1>
+        <event_name>x_inhe_spem.approval.rejected</event_name>
+        <event_parm_1>true</event_parm_1>
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
@@ -39,25 +39,25 @@
         <message/>
         <message_html><![CDATA[<div>Hello,</div>
 <div>&nbsp;</div>
-<div>Your [${exception_type}] request was rejected. A member from the Information Security will contact you to discuss details surrounding this decision.</div>
+<div>Your ${exception_type} exception request was rejected. A member from the Information Security will contact you to discuss details surrounding this decision.</div>
 <div>&nbsp;</div>
 <div>Thank you,</div>
 <div>&nbsp;</div>
 <div>Information Security Sharepoint</div>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>SPE reject email</name>
+        <name>SPEM - Approval Rejected</name>
         <omit_watermark>false</omit_watermark>
         <order/>
         <push_message_only>false</push_message_only>
-        <recipient_fields>requester</recipient_fields>
+        <recipient_fields/>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Information Security Exception Request [${number}]</subject>
+        <subject>ITS Exception Request ${number} - ${exception_type} - Rejected</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>XuHx</sys_created_by>
@@ -65,8 +65,8 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>5cd89ee1138523c0339d30128144b0a6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>SPE reject email</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>SPEM - Approval Rejected</sys_name>
         <sys_overrides/>
         <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
         <sys_policy/>
@@ -74,9 +74,9 @@
         <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
         <sys_update_name>sysevent_email_action_5cd89ee1138523c0339d30128144b0a6</sys_update_name>
         <sys_updated_by>XuHx</sys_updated_by>
-        <sys_updated_on>2018-10-09 14:52:19</sys_updated_on>
+        <sys_updated_on>2018-11-15 03:59:39</sys_updated_on>
         <sys_version>2</sys_version>
-        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <template/>
         <type>email</type>
         <user/>
         <user_field/>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="device_type" table="x_inhe_spem_server_patching_exception" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>device_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Camera</label>
+            <language>en</language>
+            <name>x_inhe_spem_server_patching_exception</name>
+            <sequence>0</sequence>
+            <sys_created_by>XuHx</sys_created_by>
+            <sys_created_on>2018-11-14 19:27:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5474709d13b1e30032eb7e276144b08a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>XuHx</sys_updated_by>
+            <sys_updated_on>2018-11-14 19:27:33</sys_updated_on>
+            <value>Camera</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>device_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>External HDD</label>
+            <language>en</language>
+            <name>x_inhe_spem_server_patching_exception</name>
+            <sequence>1</sequence>
+            <sys_created_by>XuHx</sys_created_by>
+            <sys_created_on>2018-11-14 19:27:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5c74709d13b1e30032eb7e276144b08c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>XuHx</sys_updated_by>
+            <sys_updated_on>2018-11-14 19:27:33</sys_updated_on>
+            <value>External HDD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>device_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flash drive</label>
+            <language>en</language>
+            <name>x_inhe_spem_server_patching_exception</name>
+            <sequence>2</sequence>
+            <sys_created_by>XuHx</sys_created_by>
+            <sys_created_on>2018-11-14 19:27:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>dc74709d13b1e30032eb7e276144b08e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>XuHx</sys_updated_by>
+            <sys_updated_on>2018-11-14 19:27:33</sys_updated_on>
+            <value>Flash drive</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>device_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mobile phone</label>
+            <language>en</language>
+            <name>x_inhe_spem_server_patching_exception</name>
+            <sequence>3</sequence>
+            <sys_created_by>XuHx</sys_created_by>
+            <sys_created_on>2018-11-14 19:27:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d074f09d13b1e30032eb7e276144b0cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>XuHx</sys_updated_by>
+            <sys_updated_on>2018-11-14 19:27:33</sys_updated_on>
+            <value>Mobile phone</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>device_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inhe_spem_server_patching_exception</name>
+            <sequence>4</sequence>
+            <sys_created_by>XuHx</sys_created_by>
+            <sys_created_on>2018-11-14 19:27:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5474f09d13b1e30032eb7e276144b0cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>XuHx</sys_updated_by>
+            <sys_updated_on>2018-11-14 19:27:33</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>device_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Printer</label>
+            <language>en</language>
+            <name>x_inhe_spem_server_patching_exception</name>
+            <sequence>5</sequence>
+            <sys_created_by>XuHx</sys_created_by>
+            <sys_created_on>2018-11-14 19:27:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d474f09d13b1e30032eb7e276144b0d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>XuHx</sys_updated_by>
+            <sys_updated_on>2018-11-14 19:27:33</sys_updated_on>
+            <value>Printer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>device_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Scanner</label>
+            <language>en</language>
+            <name>x_inhe_spem_server_patching_exception</name>
+            <sequence>6</sequence>
+            <sys_created_by>XuHx</sys_created_by>
+            <sys_created_on>2018-11-14 19:27:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5874f09d13b1e30032eb7e276144b0d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>XuHx</sys_updated_by>
+            <sys_updated_on>2018-11-14 19:27:33</sys_updated_on>
+            <value>Scanner</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>device_type</element>
+            <name>x_inhe_spem_server_patching_exception</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>XuHx</sys_created_by>
+            <sys_created_on>2018-11-14 19:27:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1074709d13b1e30032eb7e276144b08b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>device_type</sys_name>
+            <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
+            <sys_update_name>sys_choice_x_inhe_spem_server_patching_exception_device_type</sys_update_name>
+            <sys_updated_by>XuHx</sys_updated_by>
+            <sys_updated_on>2018-11-14 19:27:33</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

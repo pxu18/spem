@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_inhe_spem.spem_approval_matrix_user" name="x_inhe_spem.spem_approval_matrix_user">1326267b138d6f4032eb7e276144b09b</role>
+        <role/>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>XuHx</sys_created_by>
         <sys_created_on>2018-10-16 15:22:12</sys_created_on>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="blocked_url" label="Blocked URL" language="en" table="x_inhe_spem_server_patching_exception">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>blocked_url</element>
+            <help/>
+            <hint/>
+            <label>Blocked URL</label>
+            <language>en</language>
+            <name>x_inhe_spem_server_patching_exception</name>
+            <plural>Blocked URLs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>XuHx</sys_created_by>
+            <sys_created_on>2018-11-14 19:08:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>c300f45913b1e30032eb7e276144b079</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Blocked URL</sys_name>
+            <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
+            <sys_update_name>sys_documentation_x_inhe_spem_server_patching_exception_blocked_url_en</sys_update_name>
+            <sys_updated_by>XuHx</sys_updated_by>
+            <sys_updated_on>2018-11-14 19:08:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

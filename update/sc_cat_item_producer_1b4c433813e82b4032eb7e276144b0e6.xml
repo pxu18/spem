@@ -45,19 +45,7 @@
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <script><![CDATA[var speRecord = new GlideRecord('x_inhe_spem_spem_approval_matrix');
-gs.info("exception_type is:" + producer.exception_type);
-speRecord.addQuery('exception_type', producer.exception_type);
-speRecord.query();
-if(speRecord.next()){
-	var currentDate = new GlideDate().getDisplayValue();
-	gs.info("currentDate is:" + currentDate);
-	var expireDays = speRecord.getValue('expiration');
-	gs.info("expireDays is:" + expireDays);
-	var dateTime = currentDate.addDaysLocalTime(expireDays);
-	gs.info("dateTime is:" + dateTime);
-	current.expiration_date = dateTime;
-}]]></script>
+        <script/>
         <short_description>Security Policy Exception Request</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -66,7 +54,7 @@ if(speRecord.next()){
         <sys_created_on>2018-09-12 13:56:10</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1b4c433813e82b4032eb7e276144b0e6</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Security Policy Exception Request</sys_name>
         <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
         <sys_policy/>
@@ -74,7 +62,7 @@ if(speRecord.next()){
         <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
         <sys_update_name>sc_cat_item_producer_1b4c433813e82b4032eb7e276144b0e6</sys_update_name>
         <sys_updated_by>XuHx</sys_updated_by>
-        <sys_updated_on>2018-11-07 17:28:15</sys_updated_on>
+        <sys_updated_on>2018-11-16 16:35:36</sys_updated_on>
         <table_name>x_inhe_spem_server_patching_exception</table_name>
         <template/>
         <type>item</type>
