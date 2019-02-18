@@ -2,7 +2,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>200</order>
-        <question display_value="Are you an INTEGRIS Health employee or contractor?">8512223e13e06b40339d30128144b0db</question>
+        <question display_value="Is the requestor an INTEGRIS Health employee or contractor?">8512223e13e06b40339d30128144b0db</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>XuHx</sys_created_by>

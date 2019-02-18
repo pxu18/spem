@@ -43,6 +43,7 @@
         <timezone/>
         <timezone_source>task.caller_id.time_zone</timezone_source>
         <type>SLA</type>
+        <u_sla_type/>
         <vendor/>
         <when_to_cancel>no_match</when_to_cancel>
         <when_to_resume>no_match</when_to_resume>
