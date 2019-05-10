@@ -43,8 +43,6 @@
 <p>A security exception has been submitted that requires your approval. Please follow the link below to review and approve.</p>
 <p>Click ${URI_REF} to view.</p>
 <p>Thank you,</p>
-<div>Information Security Sharepoint</div>
-<div>&nbsp;</div>
 <div>INTEGRIS Health</div>]]></message_html>
         <message_list/>
         <message_text/>
@@ -67,7 +65,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>e6b7a6c41b736b80fd3db802dd4bcb23</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>SPEM - Approval Requested - Level 4</sys_name>
         <sys_overrides/>
         <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
@@ -76,7 +74,7 @@
         <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
         <sys_update_name>sysevent_email_action_e6b7a6c41b736b80fd3db802dd4bcb23</sys_update_name>
         <sys_updated_by>XuHx</sys_updated_by>
-        <sys_updated_on>2019-02-18 16:44:25</sys_updated_on>
+        <sys_updated_on>2019-05-10 20:03:09</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

@@ -37,7 +37,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>device_brand</name>
-        <order>290</order>
+        <order>2900</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text>What brand is the device?</question_text>
@@ -60,15 +60,15 @@
         <sys_created_on>2018-09-21 16:39:50</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f3188abb1328eb40339d30128144b088</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>device_brand</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>What brand is the device?</sys_name>
         <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
         <sys_update_name>item_option_new_f3188abb1328eb40339d30128144b088</sys_update_name>
         <sys_updated_by>XuHx</sys_updated_by>
-        <sys_updated_on>2018-11-14 19:31:17</sys_updated_on>
+        <sys_updated_on>2019-03-27 18:26:31</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

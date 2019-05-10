@@ -43,7 +43,7 @@
 <div>&nbsp;</div>
 <div>Thank you,</div>
 <div>&nbsp;</div>
-<div>Information Security Sharepoint</div>]]></message_html>
+<div>INTEGRIS Health</div>]]></message_html>
         <message_list/>
         <message_text/>
         <name>SPEM - Approval Rejected</name>
@@ -65,7 +65,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>5cd89ee1138523c0339d30128144b0a6</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>SPEM - Approval Rejected</sys_name>
         <sys_overrides/>
         <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
@@ -74,7 +74,7 @@
         <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
         <sys_update_name>sysevent_email_action_5cd89ee1138523c0339d30128144b0a6</sys_update_name>
         <sys_updated_by>XuHx</sys_updated_by>
-        <sys_updated_on>2018-11-15 03:59:39</sys_updated_on>
+        <sys_updated_on>2019-05-10 20:05:09</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

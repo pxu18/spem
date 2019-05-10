@@ -37,10 +37,10 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>connectivity_start_date</name>
-        <order>340</order>
+        <order>3400</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Connectivity Start Date</question_text>
+        <question_text>Connectivity Start Date:</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -60,15 +60,15 @@
         <sys_created_on>2018-09-21 16:41:57</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c4b8c6bb1328eb40339d30128144b068</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>connectivity_start_date</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Connectivity Start Date:</sys_name>
         <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
         <sys_update_name>item_option_new_c4b8c6bb1328eb40339d30128144b068</sys_update_name>
         <sys_updated_by>XuHx</sys_updated_by>
-        <sys_updated_on>2018-10-05 08:28:59</sys_updated_on>
+        <sys_updated_on>2019-03-27 18:26:52</sys_updated_on>
         <table/>
         <tooltip/>
         <type>9</type>

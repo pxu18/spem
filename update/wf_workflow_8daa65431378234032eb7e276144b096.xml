@@ -31,12 +31,12 @@
         <sys_created_by>XuHx</sys_created_by>
         <sys_created_on>2019-02-18 16:40:51</sys_created_on>
         <sys_id>9ae666441b736b80fd3db802dd4bcb92</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>XuHx</sys_updated_by>
-        <sys_updated_on>2019-02-18 19:33:53</sys_updated_on>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>hibdsr</sys_updated_by>
+        <sys_updated_on>2019-03-11 18:41:35</sys_updated_on>
         <table>x_inhe_spem_server_patching_exception</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Security Policy Exception Request">8daa65431378234032eb7e276144b096</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

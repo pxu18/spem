@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Security Policy Exception Request">1b4c433813e82b4032eb7e276144b0e6</catalog_item>
+        <catalog_variable>IO:e718f98c1be0f340332876e1dd4bcb5e</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>XuHx</sys_created_by>
+        <sys_created_on>2019-03-27 20:05:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2588b1cc1be0f340332876e1dd4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sb_business_application</sys_name>
+        <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_2588b1cc1be0f340332876e1dd4bcb8f</sys_update_name>
+        <sys_updated_by>XuHx</sys_updated_by>
+        <sys_updated_on>2019-03-27 20:05:22</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show - Device options">8f230afb1bd4b340332876e1dd4bcb03</ui_policy>
+        <variable>sb_business_application</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Security Policy Exception Request">1b4c433813e82b4032eb7e276144b0e6</catalog_item>
+        <catalog_variable>IO:fd5d35c01b24f340332876e1dd4bcb55</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>XuHx</sys_created_by>
+        <sys_created_on>2019-03-27 20:27:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>08adf1041b24f340332876e1dd4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>lc_linux_server</sys_name>
+        <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_08adf1041b24f340332876e1dd4bcb17</sys_update_name>
+        <sys_updated_by>XuHx</sys_updated_by>
+        <sys_updated_on>2019-03-27 20:27:40</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show - Linux Server list">a59d31041b24f340332876e1dd4bcbfd</ui_policy>
+        <variable>lc_linux_server</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

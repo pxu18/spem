@@ -37,7 +37,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>mlt_contractor_details</name>
-        <order>140</order>
+        <order>870</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text>Please state Company name, Title, and INTEGRIS liaison</question_text>
@@ -60,7 +60,7 @@
         <sys_created_on>2018-09-18 16:01:04</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>2262e27e13e06b40339d30128144b025</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Please state Company name, Title, and INTEGRIS liaison</sys_name>
         <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
         <sys_policy/>
@@ -68,7 +68,7 @@
         <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
         <sys_update_name>item_option_new_2262e27e13e06b40339d30128144b025</sys_update_name>
         <sys_updated_by>XuHx</sys_updated_by>
-        <sys_updated_on>2018-09-18 16:01:04</sys_updated_on>
+        <sys_updated_on>2019-03-27 20:23:37</sys_updated_on>
         <table/>
         <tooltip/>
         <type>2</type>

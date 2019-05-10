@@ -37,7 +37,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>business_impact</name>
-        <order>160</order>
+        <order>910</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text>What is the impact to the business if your request is denied?</question_text>
@@ -60,15 +60,15 @@
         <sys_created_on>2018-09-18 16:04:38</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>ce43267e13e06b40339d30128144b09f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>business_impact</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>What is the impact to the business if your request is denied?</sys_name>
         <sys_package display_value="Security Policy Exception Manager" source="x_inhe_spem">399a87f013e82b4032eb7e276144b0d1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Security Policy Exception Manager">399a87f013e82b4032eb7e276144b0d1</sys_scope>
         <sys_update_name>item_option_new_ce43267e13e06b40339d30128144b09f</sys_update_name>
         <sys_updated_by>XuHx</sys_updated_by>
-        <sys_updated_on>2018-10-05 08:22:33</sys_updated_on>
+        <sys_updated_on>2019-03-27 20:23:31</sys_updated_on>
         <table/>
         <tooltip/>
         <type>2</type>
